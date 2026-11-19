@@ -1,0 +1,6 @@
+[Unit]
+Description=Daily backup of Documents
+
+[Service]
+Type=oneshot
+ExecStart=/home/jacobb/projects/arch-homelab/backup.sh
